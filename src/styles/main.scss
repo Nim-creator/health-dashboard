@@ -1,0 +1,18 @@
+// Custom variables
+$primary: #4e73df;
+$success: #1cc88a;
+$info: #36b9cc;
+
+// Import Bootstrap after defining variables
+@import "bootstrap/scss/bootstrap";
+
+// Custom styles
+.dashboard-card {
+  border-left: 0.25rem solid $primary;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
