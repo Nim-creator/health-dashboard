@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { Container, Row, Col, Alert, Card } from 'react-bootstrap'
-import HealthInputForm from '../components/healthinputform'; //
-import VitalCards from '../components/vitalcards'; // 
+import HealthInputForm from '../components/HealthInputForm';
+ //
+import VitalCards from '../components/VitalCards'; // 
 
-import AnalyticsChart from '../components/analyticschart'; // 
+import AnalyticsChart from '../components/AnalyticsChart'; // 
 
 import { getWellnessAdvice } from '../services/openaiservices'
 
