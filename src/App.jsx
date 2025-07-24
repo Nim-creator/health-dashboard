@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import Home from './pages/Home'
 import History from './pages/History'
 import Profile from './pages/Profile'; //
+
 import { BrowserRouter } from 'react-router-dom'
 import './styles/main.scss'
 
